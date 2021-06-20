@@ -16,7 +16,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
