@@ -9,14 +9,16 @@ const path = require("path")
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Your Site Title Goes Here",
+    title: "Option Theory",
+    siteUrl: `https://optiontheory.com`,
   },
   plugins: [
+    `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    // `gatsby-plugin-sitemap`,
+    `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
